@@ -35,8 +35,12 @@ li {
 	height: 26px;
 	background-color: #303030;
 	border-bottom: 0.1em dotted white;
-	padding: 8px 0; 
-	font: 18px/26px 'Hack', monospace;
+	padding: 8px 0;
+	line-height: 26px;
+	font-size: 18px;
+}
+.monospace {
+	font-family: 'Hack', monospace;
 }
 #closeterminal:hover, #openterminal:hover {
 	background: #E04343;
@@ -65,7 +69,7 @@ li {
 </head>
 <body>
 
-<div id="terminal">
+<div id="terminal" class="monospace">
 <span style="padding-left: 16px">l:/etc$ pwd</span><span style="padding-left: 3px;" class="blink">&#x2588;</span>
 <a href="#" id="closeterminal">&times;</a></p>
 </div>
@@ -74,12 +78,12 @@ li {
 <div id="main">
 <p style="font-family: 'Raleway', sans-serif; text-align: center;"><span style="border-top: 0.02em solid white; font-size: 8vw;">Lawrence Thorpe</span></p>
 <div style="text-align: center; margin-top: -1em">
-	<span style="font-family: 'Hack', monospace; font-size: 4vw;">thorpe_lawrence</span>
+	<span class="monospace" style="font-size: 4vw;">thorpe_lawrence</span>
 	<ul id="linkslist" style="padding: 0;">
 		<li><a href="https://github.com/thorpelawrence"><img src="images/GitHub-Mark-Light-120px-plus.png" width="32px"/></a></li>
 		<li><a href="https://thorpelawrence.sandcats.io"><img src="images/sandstorm-logo-light.png" width="32px"/></a></li>
 	</ul>
-	<ul id="siteslist" style="padding: 0; font-family: 'Hack', monospace">
+	<ul id="siteslist" class="monospace" style="padding: 0;">
 		<li><a href="http://lawrencethorpe.xyz?name=Github+User">Test Site</a></li>
 		<li><a href="http://lawrencethorpe.xyz/comp3">COMP3 Revision Site</a></li>
 	</ul>
