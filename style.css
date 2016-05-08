@@ -1,0 +1,50 @@
+body {
+	background-color: #000000;
+	margin: 0;
+}
+* {
+	color: #FFFFFF;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+.monospace {
+	font-family: 'Hack', monospace;
+}
+#main {
+	display: none;
+	position: fixed;
+	top: 25%;
+	width: 80%;
+	left: 50%;
+	margin-left: -40%;
+}
+#terminal {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 26px;
+	background-color: #303030;
+	border-bottom: 0.1em dotted white;
+	padding: 8px 0;
+	line-height: 26px;
+	font-size: 18px;
+}
+#closeterminal:hover, #openterminal:hover {
+	background: #E04343;
+}
+#closeterminal, #openterminal {
+	position: absolute;
+	display: block;
+	width: 42px;
+	height: 42px;
+	top: 0;
+	right: 0;
+	font-size: 30px;
+	line-height: 42px;
+	text-align: center;
+	background: #393B40;
+}
