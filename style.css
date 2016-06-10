@@ -15,12 +15,21 @@ li {
 	font-family: 'Hack', monospace;
 }
 #main {
+	text-align: center;
 	display: none;
 	position: fixed;
 	top: 25%;
 	width: 80%;
 	left: 50%;
 	margin-left: -40%;
+}
+#name {
+	font-family: 'Raleway', sans-serif;
+	border-top: 0.02em solid white;
+	font-size: 8vw;
+}
+#username {
+	font-size: 4vw;
 }
 #terminal {
 	display: none;
@@ -47,4 +56,11 @@ li {
 	line-height: 42px;
 	text-align: center;
 	background: #393B40;
+}
+#linkslist li {
+	display: inline;
+	padding: 0 5px;
+}
+#siteslist li {
+	font-size: 14px;
 }
