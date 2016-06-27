@@ -52,18 +52,15 @@
 </script>
 <script type="text/javascript">
 	var delayTime = 500;
-	
 	$(document).ready(function() {
 		$("#main").fadeIn(delayTime * 4);
 		$("#terminal").delay(delayTime * 2).slideDown(delayTime);
 		$(".blink").blink({delay: 700});
 	});
-
 	$("#closeterminal").click(function() {
 		$("#terminal").slideUp(delayTime);
 		$("#openterminal").slideDown(delayTime);
 	});
-
 	$("#openterminal").click(function() {
 		$("#openterminal").slideUp(delayTime);
 		$("#terminal").slideDown(delayTime);
