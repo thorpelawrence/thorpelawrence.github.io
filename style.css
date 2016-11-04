@@ -59,10 +59,12 @@ li {
 }
 #linkslist li {
 	display: inline;
-	padding: 0 5px;
+	padding: 0 2px;
 }
 #linkslist img {
-	width: 32px;
+	width: 42px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
 }
 #siteslist li {
 	font-size: 14px;
