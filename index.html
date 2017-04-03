@@ -3,24 +3,16 @@
 <head>
 	<title>Lawrence Thorpe</title>
 	<link rel="shortcut icon" type="image/png" href="images/icon.png"/>
-	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="fonts/css/hack.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Mono|Space+Mono" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="theme-color" content="#000000">
 </head>
-
 <body>
-<div id="terminal" class="monospace">
-<span style="padding-left: 16px">l:/etc$ pwd</span><span style="padding-left: 3px;" class="blink">&#x2588;</span>
-<a href="#" id="closeterminal">&times;</a>
-</div>
-<a href="#" id="openterminal" style="display: none;">&#x25BE;</a>
-
-<div id="main">
+<section class="intro">
 <p><span id="name">Lawrence Thorpe</span></p>
-<div style="margin-top: -1em">
-	<span id="username" class="monospace">thorpe_lawrence</span>
+<div>
+	<span id="username">thorpe_lawrence</span>
 	<ul id="linkslist">
 		<!-- http://dapd.net/tag/instagram-logo/ -->
 		<li><a href="https://github.com/thorpelawrence"><img src="images/GitHub-Mark-Light-120px-plus.png" title="GitHub" alt="GitHub"/></a></li>
@@ -34,42 +26,10 @@
 		<li><a href="mailto:lawrence@lawrencethorpe.uk"><img src="images/DAP_Icon_Mail.png" title="Email" alt="Email"/></a></li>
 	</ul>
 </div>
-</div>
-
-<script type="text/javascript">
-	//https://github.com/johnboker/jquery.blink
-	(function ($) {
-		$.fn.blink = function (options) {
-			var defaults = { delay: 500 };
-			var options = $.extend(defaults, options);
-			return $(this).each(function (idx, itm) {
-				setInterval(function () {
-					if ($(itm).css("visibility") === "visible") {
-						$(itm).css('visibility', 'hidden');
-					}
-					else {
-						$(itm).css('visibility', 'visible');
-					}
-				}, options.delay);
-			});
-		}
-	} (jQuery))
-</script>
-<script type="text/javascript">
-	var delayTime = 500;
-	$(document).ready(function() {
-		$("#main").fadeIn(delayTime * 4);
-		$("#terminal").delay(delayTime * 2).slideDown(delayTime);
-		$(".blink").blink({delay: 700});
-	});
-	$("#closeterminal").click(function() {
-		$("#terminal").slideUp(delayTime);
-		$("#openterminal").slideDown(delayTime);
-	});
-	$("#openterminal").click(function() {
-		$("#openterminal").slideUp(delayTime);
-		$("#terminal").slideDown(delayTime);
-	});
-</script>
+<div id="arrow"></div>
+</section>
+<section>
+	<h1>Welcome</h1>
+</section>
 </body>
 </html>

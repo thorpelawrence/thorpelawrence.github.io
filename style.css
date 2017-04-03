@@ -1,9 +1,8 @@
 body {
-	background-color: #000000;
 	margin: 0;
 }
 * {
-	color: #FFFFFF;
+	box-sizing: border-box;
 }
 a {
 	text-decoration: none;
@@ -11,55 +10,42 @@ a {
 li {
 	list-style-type: none;
 }
-.monospace {
-	font-family: 'Hack', monospace;
+section {
+	width: 100%;
+	padding: 0 5%;
+	display: table;
+	margin: 0;
+	max-width: none;
+	height: 10vh;
+	font-family: 'Lato', sans-serif;
 }
-#main {
+.intro {
+	background-color: #000000;
+	color: #FFFFFF;
 	text-align: center;
-	display: none;
-	position: fixed;
-	top: 25%;
-	width: 80%;
-	left: 50%;
-	margin-left: -40%;
+	height: 100vh;
 }
 #name {
-	font-family: 'Raleway', sans-serif;
-	border-top: 0.02em solid white;
+	font-family: 'Space Mono', sans-serif;
 	font-size: 8vw;
 }
 #username {
+	font-family: 'Roboto Mono', monospace;
 	font-size: 4vw;
-}
-#terminal {
-	display: none;
+} 
+#arrow {
 	position: absolute;
-	width: 100%;
-	height: 26px;
-	background-color: #303030;
-	border-bottom: 0.1em dotted white;
-	padding: 8px 0;
-	line-height: 26px;
-	font-size: 18px;
-}
-#closeterminal:hover, #openterminal:hover {
-	background: #E04343;
-}
-#closeterminal, #openterminal {
-	position: absolute;
-	display: block;
-	width: 42px;
-	height: 42px;
-	top: 0;
-	right: 0;
-	font-size: 30px;
-	line-height: 42px;
-	text-align: center;
-	background: #393B40;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url("images/down_arrow.svg");
+	background-size: contain;
 }
 #linkslist {
 	padding: 0;
-	margin-top: 5em;
+	margin-top: 3em;
 }
 #linkslist li {
 	display: inline;
@@ -68,8 +54,5 @@ li {
 #linkslist img {
 	width: 42px;
 	padding-bottom: 5px;
-	border-bottom: 2px solid white;
 }
-#siteslist li {
-	font-size: 14px;
-}
+
