@@ -16,7 +16,6 @@ section {
 	display: table;
 	margin: 0;
 	max-width: none;
-	font-family: 'Lato', sans-serif;
 }
 .intro {
 	background-color: #000000;
@@ -25,11 +24,11 @@ section {
 	height: 100vh;
 }
 #name {
-	font-family: 'Space Mono', sans-serif;
+	font-family: 'Overpass', sans-serif;
 	font-size: 8vw;
 }
 #username {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Overpass Mono', monospace;
 	font-size: 4vw;
 }
 #arrow {
