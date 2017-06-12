@@ -1,27 +1,13 @@
-body {
-	margin: 0;
-}
-* {
-	box-sizing: border-box;
-}
 a {
 	text-decoration: none;
 }
 li {
 	list-style-type: none;
 }
-section {
-	width: 100%;
-	padding: 0 5%;
-	display: table;
-	margin: 0;
-	max-width: none;
-}
 .intro {
 	background-color: #000000;
 	color: #FFFFFF;
 	text-align: center;
-	height: 100vh;
 }
 #name {
 	font-family: 'Overpass', sans-serif;
@@ -42,8 +28,10 @@ section {
 	background-size: contain;
 }
 #linkslist {
-	width: 100%;
-	padding: 0;
+	width: 90%;
+	position: absolute;
+	bottom: 0;
+	padding: 0 5%;
 	display: flex;
 	justify-content: space-between;
 	flex-flow: wrap;
@@ -53,7 +41,7 @@ section {
 }
 #linkslist img {
 	height: 60px;
-	width: 56px;
+	width: 60px;
 	padding: 2px 0;
 }
 
