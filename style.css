@@ -21,14 +21,11 @@ li {
 	font-family: 'Overpass Mono', monospace;
 	font-size: 4vw;
 }
-.info {
+.about {
 	font-family: 'Iosevka', monospace;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 10px;
-}
-.info a {
-	color: #9E9E9E;
 }
 #arrow {
 	width: 100%;
