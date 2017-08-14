@@ -12,9 +12,9 @@
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#pagepiling').pagepiling({
-				anchors: ['intro', 'about', 'links'],
+				anchors: ['intro', 'about', 'projects', 'links'],
 				navigation: false,
-				sectionsColor: ['#000000', '#212121', '#FFFFFF']
+				sectionsColor: ['#000000', '#212121', '#424242', '#FFFFFF']
 			});
 		});
 	</script>
@@ -39,9 +39,31 @@
 			</div>
 		</div>
 		<div class="section">
-			<div class="about">
+			<div class="info">
 				<h2>About me</h2>
 				I am a developer currently studying Computer Science at the University of Lincoln, UK
+			</div>
+		</div>
+		<div class="section">
+			<div class="info">
+				<h2>Projects</h2>
+				Here are a few projects that I have worked on
+				<br> More can be found on my <a href="https://github.com/thorpelawrence">GitHub</a> page
+				<br><br>
+				<table>
+					<tr>
+						<td><a href="https://github.com/thorpelawrence/pixsrt"><img src="https://git.io/v77rh"></a></td>
+						<td>Pixsrt is a pixel sorter to glitch images, created in C++ with Qt</td>
+					</tr>
+					<tr>
+						<td><a href="https://github.com/thorpelawrence/spectrum-editor"><img src="https://git.io/v77r7"></a></td>
+						<td>Spectrum Editor is a text editor with a ZX Spectrum theme, created with Electron and NodeJS</td>
+					</tr>
+					<tr>
+						<td><a href="https://github.com/thorpelawrence/alexa-spotify-connect"><img src="https://git.io/v77oT"></a></td>
+						<td>Connect Control for Spotify allows you to control Spotify Connect devices with Amazon Alexa</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 		<div class="section">

@@ -21,11 +21,26 @@ li {
 	font-family: 'Overpass Mono', monospace;
 	font-size: 4vw;
 }
-.about {
+.info {
 	font-family: 'Iosevka', monospace;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 10px;
+}
+.info a {
+	color: #9E9E9E;
+}
+.info table {
+	margin: 0 auto;
+	max-width: 20em;
+}
+.info td {
+	font-size: 0.9em;
+	vertical-align: top;
+	text-align: right;
+}
+.info td img {
+	max-width: 100px;
 }
 #arrow {
 	width: 100%;
@@ -53,8 +68,8 @@ li {
 	padding: 0 5px;
 }
 #linkslist img {
-	height: 60px;
-	width: 60px;
+	height: 50px;
+	width: 50px;
 	padding: 2px 0;
 }
 
