@@ -12,8 +12,9 @@
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#pagepiling').pagepiling({
-				anchors: ['intro', 'links'],
-				navigation: false
+				anchors: ['intro', 'about', 'links'],
+				navigation: false,
+				sectionsColor: ['#000000', '#212121', '#FFFFFF']
 			});
 		});
 	</script>
@@ -22,18 +23,26 @@
 
 <body>
 	<div id="pagepiling">
-		<div class="intro section">
-			<p><span id="name">Lawrence Thorpe</span></p>
-			<div>
-				<span id="username">thorpe_lawrence</span>
-			</div>
-			<a href="#links">
-				<div id="arrow">
-					<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-						<path fill="#FFFFFF" d="M23.1 34.1l28.4 27.6L80 34.1l1.5.9-30 29.1-30-29.1 1.6-.9" />
-					</svg>
+		<div class="section">
+			<div class="intro">
+				<p><span id="name">Lawrence Thorpe</span></p>
+				<div>
+					<span id="username">thorpe_lawrence</span>
 				</div>
-			</a>
+				<a href="#about">
+					<div id="arrow">
+						<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+							<path fill="#FFFFFF" d="M23.1 34.1l28.4 27.6L80 34.1l1.5.9-30 29.1-30-29.1 1.6-.9" />
+						</svg>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="section">
+			<div class="info">
+				<h2>About me</h2>
+				I am a developer currently studying Computer Science at the University of Lincoln, UK
+			</div>
 		</div>
 		<div class="section">
 			<ul id="linkslist">
