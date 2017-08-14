@@ -36,6 +36,7 @@ li {
 }
 .info td {
 	font-size: 0.9em;
+	padding-left: 1em;
 	vertical-align: top;
 	text-align: right;
 }
