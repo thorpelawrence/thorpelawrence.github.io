@@ -7,11 +7,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Overpass|Overpass+Mono" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.css">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
-			$('#pagepiling').pagepiling({
+			$('#sections').fullpage({
 				anchors: ['intro', 'about', 'projects', 'links'],
 				navigation: false,
 				sectionsColor: ['#000000', '#212121', '#424242', '#FFFFFF']
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	<div id="pagepiling">
+	<div id="sections">
 		<div class="section">
 			<div class="intro">
 				<p><span id="name">Lawrence Thorpe</span></p>
