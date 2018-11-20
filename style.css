@@ -25,17 +25,17 @@ li {
 .info a {
 	color: #9E9E9E;
 }
-#projectstable {
+.listtable {
 	margin: 0 auto;
 	max-width: 20em;
 }
-#projectstable td:nth-child(2) {
+.listtable td:nth-child(2) {
 	font-size: 0.9em;
 	padding-left: 1em;
 	vertical-align: top;
 	text-align: right;
 }
-#projectstable td img {
+.listtable td img {
 	max-width: 100px;
 }
 #arrow {
