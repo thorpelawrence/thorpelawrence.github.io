@@ -1,43 +1,53 @@
 a {
 	text-decoration: none;
 }
+
 li {
 	list-style-type: none;
 }
+
 .intro {
 	color: #FFFFFF;
 	text-align: center;
 }
+
 #name {
 	font-family: 'Overpass', sans-serif;
 	font-size: 8vw;
 }
+
 #username {
 	font-family: 'Overpass Mono', monospace;
 	font-size: 4vw;
 }
+
 .info {
 	font-family: 'Overpass Mono', monospace;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 10px;
 }
+
 .info a {
 	color: #9E9E9E;
 }
+
 .listtable {
 	margin: 0 auto;
 	max-width: 20em;
 }
+
 .listtable td:nth-child(2) {
 	font-size: 0.9em;
 	padding-left: 1em;
 	vertical-align: top;
 	text-align: right;
 }
+
 .listtable td img {
 	max-width: 100px;
 }
+
 #arrow {
 	width: 100%;
 	height: 20%;
@@ -45,12 +55,14 @@ li {
 	position: absolute;
 	bottom: 0;
 }
+
 #arrow svg {
 	position: absolute;
 	bottom: 40px;
 	margin-left: -40px;
 	width: 80px;
 }
+
 #linkslist {
 	width: 90%;
 	position: absolute;
@@ -60,9 +72,11 @@ li {
 	justify-content: space-between;
 	flex-flow: wrap;
 }
+
 #linkslist li {
 	padding: 0 5px;
 }
+
 #linkslist img {
 	height: 50px;
 	width: 50px;
