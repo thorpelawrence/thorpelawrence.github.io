@@ -11,6 +11,11 @@ h1 {
 	font-weight: normal;
 }
 
+h2 {
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
 .section {
 	background-size: cover;
 	background-position: center;
@@ -55,6 +60,7 @@ h1 {
 	font-family: 'Overpass Mono', monospace;
 	font-size: 4vw;
 	background-color: #000000;
+	display: inline-block;
 	padding: 10px;
 }
 
