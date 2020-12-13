@@ -21,12 +21,31 @@ h2 {
 	background-position: center;
 }
 
+.section::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: 'Overpass Mono', monospace;
+	padding: 5px;
+	font-size: 0.8em;
+	background-color: #212121;
+	color: #FFFFFF;
+}
+
 [data-anchor="intro"] {
 	background-image: url("images/enigma.jpg");
 }
 
+[data-anchor="intro"] .section::before {
+	content: 'Enigma Machine, Bletchley Park, Kodak TRI-X 400 +2, Lawrence Thorpe 2020'
+}
+
 [data-anchor="links"] {
 	background-image: url("images/cathedral.jpg");
+}
+
+[data-anchor="links"] .section::before {
+	content: 'Lincoln Cathedral, Kodak TRI-X 400 +2, Lawrence Thorpe 2020'
 }
 
 [data-anchor="links"] .info {
