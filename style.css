@@ -36,7 +36,7 @@ h2 {
 	background-image: url("images/enigma.jpg");
 }
 
-[data-anchor="intro"] .section::before {
+[data-anchor="intro"].section::before {
 	content: 'Enigma Machine, Bletchley Park, Kodak TRI-X 400 +2, Lawrence Thorpe 2020'
 }
 
@@ -44,7 +44,7 @@ h2 {
 	background-image: url("images/cathedral.jpg");
 }
 
-[data-anchor="links"] .section::before {
+[data-anchor="links"].section::before {
 	content: 'Lincoln Cathedral, Kodak TRI-X 400 +2, Lawrence Thorpe 2020'
 }
 
