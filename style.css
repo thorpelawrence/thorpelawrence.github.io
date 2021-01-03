@@ -101,7 +101,7 @@ h2 {
 .listtable td:nth-child(2) {
 	font-size: 0.9em;
 	padding-left: 1em;
-	vertical-align: top;
+	vertical-align: middle;
 	text-align: right;
 }
 
