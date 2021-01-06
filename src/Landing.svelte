@@ -1,9 +1,5 @@
 <script>
-  import {
-    CodeSnippet,
-    Content,
-    Tile,
-  } from "carbon-components-svelte";
+  import { CodeSnippet, Content, Tile } from "carbon-components-svelte";
   import copy from "clipboard-copy";
   import Caption from "./common/Caption.svelte";
 
@@ -15,7 +11,7 @@
     background-image: url("/images/enigma.jpg");
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 3rem);
+    height: calc(100% - 3rem);
   }
 
   .name :global {
