@@ -5,6 +5,7 @@
     HeaderUtilities,
     SkipToContent,
   } from "carbon-components-svelte";
+  import FingerprintRecognition20 from "carbon-icons-svelte/lib/FingerprintRecognition20";
   import LogoGithub20 from "carbon-icons-svelte/lib/LogoGithub20";
 
   import ToggleTheme from "./ToggleTheme.svelte";
@@ -16,6 +17,10 @@
   </div>
 
   <HeaderUtilities>
+    <HeaderActionLink
+      href="https://github.com/thorpelawrence.gpg"
+      target="_blank"
+      icon={{ render: FingerprintRecognition20 }} />
     <HeaderActionLink
       href="https://github.com/thorpelawrence"
       target="_blank"
