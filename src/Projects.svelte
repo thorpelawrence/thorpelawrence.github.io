@@ -48,21 +48,21 @@
     },
     {
       description:
-        "Spectrum Editor is a text editor with a ZX Spectrum theme, created with Electron and NodeJS.",
+        "Wavehop is an endless runner game where each jump button changes your colour, created for GGJ2017.",
       href:
         "https://play.google.com/store/apps/details?id=com.ReGroove.Wavehop",
       image: {
         src: "https://i.imgur.com/ANtDU8V.png",
-        alt: "Spectrum Editor",
+        alt: "Wavehop",
       },
     },
     {
       description:
-        "Spectrum Editor is a text editor with a ZX Spectrum theme, created with Electron and NodeJS.",
+        "Quizics is a C# physics quiz for teachers/students, originally completed for Computing A-Levels.",
       href: "https://github.com/thorpelawrence/quizics/blob/master/README.md",
       image: {
         src: "https://git.io/JfaVr",
-        alt: "Spectrum Editor",
+        alt: "Quizics",
       },
     },
   ];
