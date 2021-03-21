@@ -24,7 +24,7 @@
       href:
         "https://www.youracclaim.com/badges/404bcfec-4dc1-4103-b4f8-e2ad71f3e31d/linked_in_profile",
       image: {
-        src: "https://i.imgur.com/hPR2rmK.png",
+        src: "/images/certifications/mta-database-fundamentals-2018.png",
         alt: "MTA: Database Fundamentals 2018 Badge",
       },
     },
@@ -33,7 +33,7 @@
       href:
         "https://www.youracclaim.com/badges/c8fc24bb-e24b-464d-8f39-bec5c8d42b57/linked_in_profile",
       image: {
-        src: "https://i.imgur.com/g9RsIZH.png",
+        src: "/images/certifications/mta-networking-fundamentals-2018.png",
         alt: "MTA: Networking Fundamentals 2018 Badge",
       },
     },
@@ -42,7 +42,7 @@
       href:
         "https://www.youracclaim.com/badges/58ab4c62-1f70-4075-9bba-d401884be37d/linked_in_profile",
       image: {
-        src: "https://i.imgur.com/vV2U1UE.png",
+        src: "/images/certifications/mta-security-fundamentals-2019.png",
         alt: "MTA: Security Fundamentals 2019 Badge",
       },
     },
@@ -51,7 +51,7 @@
       href:
         "https://www.youracclaim.com/badges/2f36501e-c674-4634-b1a0-fc294072d38c/linked_in_profile",
       image: {
-        src: "https://i.imgur.com/FMbGryT.png",
+        src: "/images/certifications/mta-cloud-fundamentals-2019.png",
         alt: "MTA: Cloud Fundamentals 2019 Badge",
       },
     },
@@ -60,7 +60,7 @@
       href:
         "https://www.coursera.org/account/accomplishments/verify/ZPA4GGTX3KLW",
       image: {
-        src: "https://i.imgur.com/qiwtn10.png",
+        src: "/images/certifications/google-cloud-platform.png",
         alt: "Google Cloud Platform Logo",
       },
     },
