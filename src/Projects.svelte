@@ -30,15 +30,6 @@
     },
     {
       description:
-        "Spectrum Editor is a text editor with a ZX Spectrum theme, created with Electron and NodeJS.",
-      href: "https://github.com/thorpelawrence/spectrum-editor",
-      image: {
-        src: "https://git.io/v77r7",
-        alt: "Spectrum Editor",
-      },
-    },
-    {
-      description:
         "Connect Control for Spotify allows you to control Spotify Connect devices with Amazon Alexa.",
       href: "https://github.com/thorpelawrence/alexa-spotify-connect",
       image: {
@@ -54,6 +45,15 @@
       image: {
         src: "https://i.imgur.com/ANtDU8V.png",
         alt: "Wavehop",
+      },
+    },
+    {
+      description:
+        "Spectrum Editor is a text editor with a ZX Spectrum theme, created with Electron and NodeJS.",
+      href: "https://github.com/thorpelawrence/spectrum-editor",
+      image: {
+        src: "https://git.io/v77r7",
+        alt: "Spectrum Editor",
       },
     },
     {
