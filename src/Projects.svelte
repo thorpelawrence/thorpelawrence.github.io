@@ -48,6 +48,15 @@
       },
     },
     {
+      description: "npm-github-packages-auth-helper is a tool to manage npm token storage using system keychain.",
+      href: "https://github.com/thorpelawrence/npm-github-packages-auth-helper",
+      image: {
+        src:
+          "https://github.com/thorpelawrence/npm-github-packages-auth-helper/raw/main/images/logo-keyring.png",
+        alt: "npm-github-packages-auth-helper",
+      },
+    },
+    {
       description:
         "Spectrum Editor is a text editor with a ZX Spectrum theme, created with Electron and NodeJS.",
       href: "https://github.com/thorpelawrence/spectrum-editor",
