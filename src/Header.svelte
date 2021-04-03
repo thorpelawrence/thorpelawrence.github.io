@@ -18,7 +18,7 @@
 
   <HeaderUtilities>
     <HeaderActionLink
-      href="https://github.com/thorpelawrence.gpg"
+      href="https://keyoxide.org/hkp/lawrence@lawrencethorpe.uk"
       target="_blank"
       icon={{ render: FingerprintRecognition20 }} />
     <HeaderActionLink
