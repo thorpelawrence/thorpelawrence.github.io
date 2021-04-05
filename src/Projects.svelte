@@ -48,7 +48,7 @@
       },
     },
     {
-      description: "npm-github-packages-auth-helper is a tool to manage npm token storage using system keychain.",
+      description: "npm-github-packages-auth-helper is a tool written in TypeScript to manage npm token storage using system keychain.",
       href: "https://github.com/thorpelawrence/npm-github-packages-auth-helper",
       image: {
         src:
