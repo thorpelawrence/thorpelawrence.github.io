@@ -27,7 +27,7 @@
         </p>
         <p>
           Experience with a variety of languages ranging from high to
-          lower-level programming; including C/C++, Rust, C#, JavaScript
+          lower-level programming; including C/C++, Rust, C#, JavaScript/TypeScript
           (NodeJS), and Haskell. Involvement and experience in teamwork
           utilising the agile development process and Git.
         </p>
