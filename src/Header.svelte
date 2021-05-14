@@ -18,7 +18,7 @@
 
   <HeaderUtilities>
     <HeaderActionLink
-      href="https://keyoxide.org/hkp/lawrence@lawrencethorpe.uk"
+      href="https://keyoxide.org/wkd/lawrence@lawrencethorpe.uk"
       target="_blank"
       icon={{ render: FingerprintRecognition20 }} />
     <HeaderActionLink
