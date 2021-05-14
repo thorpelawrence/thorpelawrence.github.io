@@ -18,7 +18,7 @@
 
   <HeaderUtilities>
     <HeaderActionLink
-      href="https://keys.openpgp.org/search?q=lawrence%40lawrencethorpe.uk"
+      href="https://keyoxide.org/hkp/lawrence@lawrencethorpe.uk"
       target="_blank"
       icon={{ render: FingerprintRecognition20 }} />
     <HeaderActionLink
