@@ -1,4 +1,5 @@
 <script lang="ts">
+  import links from "./links.json";
   import { Link, Tooltip } from "carbon-components-svelte";
   import LogoGithub from "carbon-icons-svelte/lib/LogoGithub32";
   import LogoLinkedin from "carbon-icons-svelte/lib/LogoLinkedin32";
@@ -6,6 +7,11 @@
   import LogoYoutube from "carbon-icons-svelte/lib/LogoYoutube32";
   import Email from "carbon-icons-svelte/lib/Email32";
   import BGG from "./icons/bgg.svg";
+
+  const shortLinks = Object.keys(links).reduce((acc, name) => {
+    acc[name] = `/l/${name}`;
+    return acc;
+  }, {});
 </script>
 
 <style lang="scss">
@@ -18,19 +24,19 @@
 </style>
 
 <footer>
-  <Link href="https://github.com/thorpelawrence">
+  <Link href={shortLinks.gh}>
     <LogoGithub />
   </Link>
-  <Link href="https://linkedin.com/in/thorpelawrence">
+  <Link href={shortLinks.in}>
     <LogoLinkedin />
   </Link>
-  <Link href="https://instagram.com/thorpe_lawrence">
+  <Link href={shortLinks.ig}>
     <LogoInstagram />
   </Link>
-  <Link href="https://boardgamegeek.com/user/thorpe_lawrence" class="footer-icon">
+  <Link href={shortLinks.bgg}>
     {@html BGG}
   </Link>
-  <Link href="https://youtube.com/c/lawrencethorpe">
+  <Link href={shortLinks.yt}>
     <LogoYoutube />
   </Link>
   <Tooltip direction="left" icon={Email}>
