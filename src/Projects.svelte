@@ -41,9 +41,9 @@
       description:
         "Wavehop is an endless runner game where each jump button changes your colour, created for GGJ2017.",
       href:
-        "https://play.google.com/store/apps/details?id=com.ReGroove.Wavehop",
+        "/static/WaveHop.apk",
       image: {
-        src: "https://i.imgur.com/ANtDU8V.png",
+        src: "/images/projects/wavehop.png",
         alt: "Wavehop",
       },
     },
