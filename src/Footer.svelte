@@ -33,7 +33,7 @@
   <Link href="https://youtube.com/c/lawrencethorpe">
     <LogoYoutube />
   </Link>
-  <Tooltip direction="top" icon={Email}>
+  <Tooltip direction="left" icon={Email}>
     lawrence at lawrencethorpe dot uk
   </Tooltip>
 </footer>
