@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <script>
+      var location = window.location;
+      var link = location.pathname.split("/")[1];
+      var homepage =
+        location.protocol +
+        "//" +
+        location.hostname +
+        (location.port ? ":" + location.port : "") +
+        "/" +
+        location.pathname.split("/")[0];
+      var url;
+      if (!url) {
+        location.replace(homepage);
+      }
+      location.replace(url);
+    </script>
+  </head>
+
+  <body></body>
+</html>
